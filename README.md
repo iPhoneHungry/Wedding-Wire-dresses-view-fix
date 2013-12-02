@@ -12,7 +12,7 @@ used for this example though other pages were creating the issue for app users a
 
 The main snippit of code that fixes the issue will be found in the UIWebView subclass MyWebView which is:
 
-
+ ```
    -(void)scrollViewDidScroll:(UIScrollView *)scrollView   
    {
  
@@ -36,7 +36,7 @@ The main snippit of code that fixes the issue will be found in the UIWebView sub
           }
       }
    }
-
+ ```
  
 
 Hopefully this will help a few coders out there managing webapps built into native applications
