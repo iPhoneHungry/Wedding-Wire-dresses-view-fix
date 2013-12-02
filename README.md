@@ -13,7 +13,8 @@ used for this example though other pages were creating the issue for app users a
 The main snippit of code that fixes the issue will be found in the UIWebView subclass MyWebView which is:
 
 
-   -(void)scrollViewDidScroll:(UIScrollView *)scrollView   {
+   -(void)scrollViewDidScroll:(UIScrollView *)scrollView   
+   {
  
       if (self.iosVersionNot7 == YES) {
          //ios is below 7.0 so checking to block glitch
@@ -34,7 +35,7 @@ The main snippit of code that fixes the issue will be found in the UIWebView sub
                   self.previousScrolly = scrollView.contentOffset.y;
           }
       }
-  }
+   }
 
  
 
