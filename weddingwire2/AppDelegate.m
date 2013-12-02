@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //checks app version so ViewController.m can fix the glitch in ios < 7
+    //checks app version so subclassed UIWebView can fix the glitch in ios < 7
     [self checkIOSVersion];
     
     //Cookie that sets to much info but most importantly brings up app style page
