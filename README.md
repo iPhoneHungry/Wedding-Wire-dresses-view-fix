@@ -39,4 +39,13 @@ The main snippit of code that fixes the issue will be found in the UIWebView sub
  ```
  
 
-Hopefully this will help a few coders out there managing webapps built into native applications
+Hopefully this will help a few coders out there managing webapps built into native applications.
+
+Additional uses for the full source could be for any one trying to learn how to..
+
+- Add preset cookies for thier app which is shown in the AppDelegate.m 
+- Retrieve variable value from AppDelegate in another class "Common stackoverflow.com question..."
+- Shows example of initWithCoder and baseInit in UIWebView.
+- How to almost over comment code.
+
+Any questions I'm always out there iphonehungry@yahoo.com http://stackoverflow.com/users/2269488/rezand http://www.imagegarageapp.com
