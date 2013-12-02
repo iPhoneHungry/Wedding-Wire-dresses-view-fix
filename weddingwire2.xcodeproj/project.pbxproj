@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD40847C1848699000A435E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD40847B1848699000A435E6 /* UIKit.framework */; };
+		DD40847E1848699000A435E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD40847D1848699000A435E6 /* Foundation.framework */; };
+		DD4084801848699000A435E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD40847F1848699000A435E6 /* CoreGraphics.framework */; };
+		DD4084861848699000A435E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD4084841848699000A435E6 /* InfoPlist.strings */; };
+		DD4084881848699000A435E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4084871848699000A435E6 /* main.m */; };
+		DD40848C1848699000A435E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD40848B1848699000A435E6 /* AppDelegate.m */; };
+		DD40848E1848699100A435E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD40848D1848699100A435E6 /* Default.png */; };
+		DD4084901848699100A435E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD40848F1848699100A435E6 /* Default@2x.png */; };
+		DD4084921848699100A435E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4084911848699100A435E6 /* Default-568h@2x.png */; };
+		DD4084951848699100A435E6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4084931848699100A435E6 /* MainStoryboard_iPhone.storyboard */; };
+		DD4084981848699100A435E6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4084961848699100A435E6 /* MainStoryboard_iPad.storyboard */; };
+		DD40849B1848699100A435E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD40849A1848699100A435E6 /* ViewController.m */; };
+		DD4084A3184A282400A435E6 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4084A2184A282400A435E6 /* MyWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD4084781848699000A435E6 /* weddingwire2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weddingwire2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD40847B1848699000A435E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD40847D1848699000A435E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD40847F1848699000A435E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD4084831848699000A435E6 /* weddingwire2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weddingwire2-Info.plist"; sourceTree = "<group>"; };
+		DD4084851848699000A435E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD4084871848699000A435E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD4084891848699000A435E6 /* weddingwire2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weddingwire2-Prefix.pch"; sourceTree = "<group>"; };
+		DD40848A1848699000A435E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD40848B1848699000A435E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD40848D1848699100A435E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD40848F1848699100A435E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD4084911848699100A435E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD4084941848699100A435E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DD4084971848699100A435E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DD4084991848699100A435E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD40849A1848699100A435E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD4084A1184A282400A435E6 /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
+		DD4084A2184A282400A435E6 /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4084751848699000A435E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD40847C1848699000A435E6 /* UIKit.framework in Frameworks */,
+				DD40847E1848699000A435E6 /* Foundation.framework in Frameworks */,
+				DD4084801848699000A435E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD40846F1848699000A435E6 = {
+			isa = PBXGroup;
+			children = (
+				DD4084811848699000A435E6 /* weddingwire2 */,
+				DD40847A1848699000A435E6 /* Frameworks */,
+				DD4084791848699000A435E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4084791848699000A435E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4084781848699000A435E6 /* weddingwire2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD40847A1848699000A435E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD40847B1848699000A435E6 /* UIKit.framework */,
+				DD40847D1848699000A435E6 /* Foundation.framework */,
+				DD40847F1848699000A435E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD4084811848699000A435E6 /* weddingwire2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD40848A1848699000A435E6 /* AppDelegate.h */,
+				DD40848B1848699000A435E6 /* AppDelegate.m */,
+				DD4084931848699100A435E6 /* MainStoryboard_iPhone.storyboard */,
+				DD4084961848699100A435E6 /* MainStoryboard_iPad.storyboard */,
+				DD4084991848699100A435E6 /* ViewController.h */,
+				DD40849A1848699100A435E6 /* ViewController.m */,
+				DD4084A1184A282400A435E6 /* MyWebView.h */,
+				DD4084A2184A282400A435E6 /* MyWebView.m */,
+				DD4084821848699000A435E6 /* Supporting Files */,
+			);
+			path = weddingwire2;
+			sourceTree = "<group>";
+		};
+		DD4084821848699000A435E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD4084831848699000A435E6 /* weddingwire2-Info.plist */,
+				DD4084841848699000A435E6 /* InfoPlist.strings */,
+				DD4084871848699000A435E6 /* main.m */,
+				DD4084891848699000A435E6 /* weddingwire2-Prefix.pch */,
+				DD40848D1848699100A435E6 /* Default.png */,
+				DD40848F1848699100A435E6 /* Default@2x.png */,
+				DD4084911848699100A435E6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4084771848699000A435E6 /* weddingwire2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD40849E1848699100A435E6 /* Build configuration list for PBXNativeTarget "weddingwire2" */;
+			buildPhases = (
+				DD4084741848699000A435E6 /* Sources */,
+				DD4084751848699000A435E6 /* Frameworks */,
+				DD4084761848699000A435E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weddingwire2;
+			productName = weddingwire2;
+			productReference = DD4084781848699000A435E6 /* weddingwire2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4084701848699000A435E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rezand;
+			};
+			buildConfigurationList = DD4084731848699000A435E6 /* Build configuration list for PBXProject "weddingwire2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD40846F1848699000A435E6;
+			productRefGroup = DD4084791848699000A435E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4084771848699000A435E6 /* weddingwire2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4084761848699000A435E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4084861848699000A435E6 /* InfoPlist.strings in Resources */,
+				DD40848E1848699100A435E6 /* Default.png in Resources */,
+				DD4084901848699100A435E6 /* Default@2x.png in Resources */,
+				DD4084921848699100A435E6 /* Default-568h@2x.png in Resources */,
+				DD4084951848699100A435E6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DD4084981848699100A435E6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4084741848699000A435E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4084881848699000A435E6 /* main.m in Sources */,
+				DD40848C1848699000A435E6 /* AppDelegate.m in Sources */,
+				DD40849B1848699100A435E6 /* ViewController.m in Sources */,
+				DD4084A3184A282400A435E6 /* MyWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD4084841848699000A435E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4084851848699000A435E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD4084931848699100A435E6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4084941848699100A435E6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4084961848699100A435E6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4084971848699100A435E6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD40849C1848699100A435E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD40849D1848699100A435E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD40849F1848699100A435E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weddingwire2/weddingwire2-Prefix.pch";
+				INFOPLIST_FILE = "weddingwire2/weddingwire2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD4084A01848699100A435E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weddingwire2/weddingwire2-Prefix.pch";
+				INFOPLIST_FILE = "weddingwire2/weddingwire2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4084731848699000A435E6 /* Build configuration list for PBXProject "weddingwire2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD40849C1848699100A435E6 /* Debug */,
+				DD40849D1848699100A435E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD40849E1848699100A435E6 /* Build configuration list for PBXNativeTarget "weddingwire2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD40849F1848699100A435E6 /* Debug */,
+				DD4084A01848699100A435E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4084701848699000A435E6 /* Project object */;
+}
