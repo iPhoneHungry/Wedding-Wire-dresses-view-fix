@@ -1,3 +1,8 @@
+
+February 17th 2014 rant below--<br>
+This was a fix for a local start up's horrible iPhone application. They have good website engineers but slacked on the native iOS side. This is my issue with the world trying to turn every mobile application into a css and javascript project and then wonder why users are complaining of issues when they aren't probably testing and shipping out a product monthly with bugs. I sent this over to the company 6 months ago and the problem still persist and if anything was made worse by some server code changes since their app simple loads a mobile page based on the apps cookies <- this is a waste of user time and phone space to download a buggy application when the actual mobile website works better.
+-- end rant
+
 Wedding-Wire-dresses-view-fix
 =============================
 
